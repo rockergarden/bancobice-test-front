@@ -1,27 +1,24 @@
-# Biceindicadores
+# BANCOBICE-TEST-FRONT
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Development server
+## Instalación
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+¡Antes de ejecutar estos pasos se debe tener instalado y ejecutando el repositorio: !
 
-## Code scaffolding
+Este es el frontend para la prueba técnica del proceso de selección, las tecnologías utilizadas son:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**-. Angular 9**
+**-. Node 12**
 
-## Build
+Node se debe descargar desde [https://nodejs.org/es/download/](https://nodejs.org/es/download/).
+Angular 9 se debe instalar después de haber instalado correctamente node desde el terminal o linea de comandos con el comando: **"npm install -g @angular/cli"**. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Se debe clonar el repositorio y una vez clonado se debe ejecutar el comando **npm install** desde el terminal o linea de comandos para instalar las dependencias del proyecto.
 
-## Running unit tests
+Una vez instaladas las dependencias de forma correcta se debe ejecutar el comando **ng serve** desde el terminal o linea de comandos para ejecutar.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Servidor de pruebas
 
-## Running end-to-end tests
+Una vez ejecutado se debe entrar a la url: [http://localhost:4200/](http://localhost:4200/) y una vez desde ahí se puede entrar a la aplicación.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
