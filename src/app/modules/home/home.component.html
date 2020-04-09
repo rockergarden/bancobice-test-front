@@ -1,0 +1,33 @@
+<div class="grid-container">
+    <h1 style="margin-top: 15px; margin-left: 15px;">Indicadores</h1>
+    <h2 style="margin-top: 15px; margin-left: 15px;">Click en la celda para ver el detalle</h2>
+    <mat-grid-list cols="2" rowHeight="350px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="cobre" [indicatorData]="cobre" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="dolar" [indicatorData]="dolar" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="euro" [indicatorData]="euro" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="ipc" [indicatorData]="ipc" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="ivp" [indicatorData]="ivp" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="oro" [indicatorData]="oro" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="uf" [indicatorData]="uf" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="utm" [indicatorData]="utm" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <app-indicador *ngIf="yen" [indicatorData]="yen" (selectedKey)="clicked($event)"></app-indicador>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
